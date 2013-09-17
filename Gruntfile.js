@@ -43,7 +43,7 @@ module.exports = function(grunt) {
             },
             dev: {
                 options: {
-                    port: 8000,
+                    port: 8001,
                     keepalive: true,
                     middleware: middleware
                 }
@@ -51,12 +51,12 @@ module.exports = function(grunt) {
         },
 
         // Code quality
-        jshint: {
-            all: [ 'Gruntfile.js', '<%= meta.src %>', '<%= meta.specs %>' ],
-            options: {
-                jshintrc: '/Users/andy/.jshintrc'
-            }
-        },
+        //jshint: {
+        //    all: [ 'Gruntfile.js', '<%= meta.src %>', '<%= meta.specs %>' ],
+        //    options: {
+        //        jshintrc: '/Users/andy/.jshintrc'
+        //    }
+        //},
 
         // Unit tests
         jasmine: {
