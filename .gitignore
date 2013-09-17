@@ -1,3 +1,10 @@
+## generic files to ignore
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+
 *.py[cod]
 
 # C extensions
@@ -18,6 +25,10 @@ develop-eggs
 lib
 lib64
 
+# javascript
+node_modules
+jam
+
 # Virtualenv
 env
 
@@ -34,5 +45,6 @@ nosetests.xml
 
 # Mr Developer
 .mr.developer.cfg
+.idea
 .project
 .pydevproject
